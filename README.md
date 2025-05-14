@@ -126,7 +126,7 @@ kubectl get nodes
 To avoid unwanted billing:
 
 ```bash
-eksctl delete cluster --name ashokit-cluster4 --region ap-south-1
+eksctl delete cluster --name om-cluster --region ap-south-1
 ```
 
 > 💡 Also terminate EC2 instance and delete unused resources (EBS, Load Balancers, IAM Roles, etc.)
